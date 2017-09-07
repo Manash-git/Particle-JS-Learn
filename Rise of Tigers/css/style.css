@@ -1,0 +1,99 @@
+*{  margin: 0;
+    padding : 0;
+    
+}
+body {
+
+/*
+    background-image: url(../images/Pattern.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+*/
+
+
+    background-color: #263238;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 ;
+    font-size : 16 px;
+    line-height : 20px;
+    height: 100vh;
+}
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ul li{
+    list-style: none;
+    position: relative;
+    height: 33.3vh;
+    width: 100vw;
+}
+
+#up,
+#middle,
+#bottom{
+    height: 100%;
+}
+
+/*
+#up{
+    background-color: #054F00;
+}
+#middle{
+    background-color: #B51304;
+
+}
+#bottom{
+    background-color: #054F00;
+}
+*/
+
+#up{
+    background-color: #8B0101;
+}
+#middle{
+    background-color: #054F00;
+}
+#bottom{
+    background-color: #8B0101;
+}
+
+
+ul li img{
+    position: absolute;
+    margin: 15px 0 0;
+    height: 90%;
+    left: 48%;
+    padding: 0;
+    transform: translateX(-52%);
+}
+ul li h1{
+    position: absolute;
+    text-align: center;
+    width: 35%;
+    margin: 3%;
+    font-size: 4em;
+    padding: 0;
+    line-height: 70px;
+    color: #FFFFFF;
+    
+}
+ul li h2{
+    position: absolute;
+    text-align: center;
+    width: 35%;
+    right: 0;
+    margin: 4% 60px 0px 0px;
+    font-size: 4em;
+    padding: 0;
+    line-height: 70px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+}
